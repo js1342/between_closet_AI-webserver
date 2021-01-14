@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+	{{ csrf_input }}
+	{% for image_name in cropped_image_name %}<ul>{{image_name}}</ul>{% endfor %}
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+	{{ csrf_input }}
+	{% for image_name in black_cropped_image_name %}<ul>{{image_name}}</ul>{% endfor %}
+	{% for category in category_id %}<li>{{category}}</li>{% endfor %}
+	{% for color_id in color %}<p>{{color_id}}</p>{% endfor %}
+	{% for white_image_name in white_cropped_image_name %}<h3>{{white_image_name}}</h3>{% endfor %}
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>이건 타이틀</title>
+</head>
+<body>
+    <form action="{% url 'server:by_POST' %}" method="POST">
+        {% csrf_token %}
+        <ul> 아래의 버튼은 이미지가 왔을 때를 가정하기 위한 버튼입니다.</ul>
+        <ul> post 방식으로 보냅니다. </ul>
+        <ul> input안에 url은 google에서 가져온 옷 사진 주소입니다.</ul>
+        <input type="text" value="https://www.businessinsider.in/thumb/msid-71053442,width-640,resizemode-4,imgsize-679585/the-best-maternity-clothes-overall.jpg" name="url">
+        <button type="submit">Go</button>
+    </form>
+</body>
+</html>
