@@ -34,11 +34,11 @@
 * 프로젝트 수행 도구
 
   * Python/Django
-* Tensorflow/Keras
+  * Tensorflow/Keras
   * Vue.js
-* Kotlin
+  * Kotlin
   * AWS EC2, RDS, DynamoDB
-* Git, [Notion](https://www.notion.so/1342-719338f77d1841d098f69f4eb29a9694), [Figma](https://www.figma.com/file/rHAKGiWJHMW2VWupoJphi1/Untitled?node-id=0%3A1)
+  * Git, [Notion](https://www.notion.so/1342-719338f77d1841d098f69f4eb29a9694), [Figma](https://www.figma.com/file/rHAKGiWJHMW2VWupoJphi1/Untitled?node-id=0%3A1)
 
 
 
